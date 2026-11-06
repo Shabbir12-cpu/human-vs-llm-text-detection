@@ -6,7 +6,7 @@ This is my M.S. Data Science capstone project at Montclair State University. It 
 
 **Best result: fine-tuned DistilBERT reached 82.6% validation accuracy (F1 0.80), 12.6 points above the best classical model.**
 
-![Model comparison](images/model_comparison.png)
+![Model comparison](model_comparison.png)
 
 ---
 
@@ -65,8 +65,8 @@ Both were trained on increasing sample sizes to produce learning curves.
 **Learning curves:** the 1D-CNN levelled off at about 78% beyond 20,000 samples. The LSTM was still improving at 10,000.
 
 <p float="left">
-  <img src="images/lstm_learning_curve.png" width="49%" />
-  <img src="images/cnn_learning_curve.png" width="49%" />
+  <img src="lstm_learning_curve.png" width="49%" />
+  <img src="cnn_learning_curve.png" width="49%" />
 </p>
 
 ## Key findings
@@ -77,8 +77,8 @@ Both were trained on increasing sample sizes to produce learning curves.
 - **Misclassified texts look alike on the surface.** Among the texts the model got wrong, readability and sentiment distributions are almost identical for human and LLM writing; human texts show only slightly higher lexical diversity.
 
 <p float="left">
-  <img src="images/feature_importance.png" width="49%" />
-  <img src="images/gradient_saliency.png" width="49%" />
+  <img src="feature_importance.png" width="49%" />
+  <img src="gradient_saliency.png" width="49%" />
 </p>
 
 ## Limitations
@@ -96,7 +96,7 @@ Python · pandas · NumPy · spaCy · scikit-learn · XGBoost · TensorFlow/Kera
 
 ```
 ├── Human_vs_LLM_Text_Detection.ipynb   # full analysis notebook
-├── images/                             # charts used in this README
+├── *.png                               # charts used in this README
 ├── requirements.txt
 └── README.md
 ```
