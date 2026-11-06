@@ -1,0 +1,16 @@
+# Secrets - never commit
+kaggle.json
+*.json.key
+.env
+
+# Data and models (too large for GitHub)
+*.csv
+*.parquet
+*.zip
+models*/
+*.safetensors
+*.bin
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/

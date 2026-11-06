@@ -1,0 +1,16 @@
+pandas
+numpy
+spacy
+scikit-learn
+xgboost
+tensorflow
+torch
+transformers
+accelerate
+textstat
+textblob
+matplotlib
+seaborn
+tqdm
+kaggle
+jupyter
